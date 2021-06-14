@@ -6,7 +6,7 @@ type Props = {
 };
 
 const NavList: React.FC<Props> = ({ children }) => (
-    <nav>
+    <nav className={classNames.container}>
         <ul className={classNames.list}>
             {React.Children.map(children, (child) => (
                 <li className={classNames.listItem} key={child.key}>

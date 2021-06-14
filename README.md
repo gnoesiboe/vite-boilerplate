@@ -3,9 +3,10 @@
 Prepare:
 
 * [x] scss-modules
-* [ ] Vite
+* [x] Vite
 * [x] React Router
-* [ ] Helmet
+* [x] Helmet
 * [ ] Jest testing + React specific utilities
 * [ ] Setup pre-commit hooks
 * [ ] Prepare Typescript configuration (aliases?)
+* [ ] Lazy loading van pages

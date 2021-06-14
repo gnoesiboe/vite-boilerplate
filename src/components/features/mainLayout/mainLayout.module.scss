@@ -1,13 +1,17 @@
 @use './../../../styles/settings/breakpoints';
-@import '~sass-mq';
+@use './../../../styles/settings/dimensions';
+@import 'sass-mq';
 
 .header {
     margin-bottom: 1rem;
 }
 
 .content {
-    @include mq($from: tablet) {
-        width: breakpoints.$desktop;
-        color: green !important;
+    max-width: dimensions.$container-max-width;
+    margin: 0 auto;
+    padding: 0 dimensions.$container-side-spacing;
+
+    @include mq($from: desktop) {
+        padding: 0;
     }
 }

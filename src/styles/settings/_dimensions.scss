@@ -1,0 +1,4 @@
+@use 'breakpoints';
+
+$container-max-width: breakpoints.$desktop;
+$container-side-spacing: 1rem;

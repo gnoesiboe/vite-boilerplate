@@ -1,10 +1,17 @@
+@use './../../../styles/settings/dimensions';
+
+.container {
+    background: #000;
+}
+
 .list {
     list-style: none;
     display: flex;
     justify-content: flex-start;
-    gap: 1rem;
-    background: #000;
+    gap: dimensions.$container-side-spacing;
     padding: 0;
+    max-width: dimensions.$container-max-width;
+    margin: 0 auto;
 }
 
 .listItem {
@@ -15,7 +22,7 @@
     display: block;
     color: #999;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem dimensions.$container-side-spacing;
 }
 
 .linkIsActive {
