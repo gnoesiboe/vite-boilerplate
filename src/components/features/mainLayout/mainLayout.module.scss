@@ -1,0 +1,13 @@
+@use './../../../styles/settings/breakpoints';
+@import '~sass-mq';
+
+.header {
+    margin-bottom: 1rem;
+}
+
+.content {
+    @include mq($from: tablet) {
+        width: breakpoints.$desktop;
+        color: green !important;
+    }
+}
