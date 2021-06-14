@@ -6,3 +6,5 @@ dist-ssr
 npm-debug.log*
 .idea
 /coverage
+/cypress/integration/examples
+/cypress/fixtures/example.json
