@@ -8,5 +8,5 @@ Prepare:
 * [x] Helmet
 * [x] Jest testing + React specific utilities
 * [x] Setup pre-commit hooks
-* [ ] Prepare Typescript configuration (aliases?)
+* [x] Prepare Typescript configuration
 * [ ] Lazy loading van pages
