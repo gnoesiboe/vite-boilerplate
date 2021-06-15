@@ -1,9 +1,11 @@
 @use './../../../styles/settings/breakpoints';
 @use './../../../styles/settings/dimensions';
+@use './../../../styles/settings/spacing';
+//noinspection CssUnknownTarget
 @import 'sass-mq';
 
 .header {
-    margin-bottom: 1rem;
+    margin-bottom: spacing.$small;
 }
 
 .content {
