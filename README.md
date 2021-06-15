@@ -1,4 +1,4 @@
-# Technical Interview
+# Vite boilerplate
 
 Prepare:
 
